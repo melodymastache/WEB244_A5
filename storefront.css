@@ -1,10 +1,19 @@
 header {
 	font-family: 'Luckiest Guy';
 	font-size: 40px;
-	color: purple;
 	text-align: center;
-	position: relative;
+}
+
+h2 {
+	color: hsla(296, 90%, 19%, 0.55);
+	letter-spacing: 4px;
 	margin-top: 30px;
+}
+
+h5 {
+	font-family: 'Georgia';
+	font-size: 20px;
+	color: #696766;
 }
 
 .overlay {
@@ -32,13 +41,6 @@ header {
 
 .column:hover .overlay {
 	opacity: 1;
-}
-
-.subtitle {
-	font-family: 'Georgia';
-	font-size: 14px;
-	color: #696766;
-	padding-bottom: 20px;
 }
 
 .name {
