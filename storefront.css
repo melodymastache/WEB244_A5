@@ -1,0 +1,90 @@
+header {
+	font-family: 'Luckiest Guy';
+	font-size: 40px;
+	color: purple;
+	text-align: center;
+	position: relative;
+	margin-top: 30px;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #FFFFFF;
+}
+
+.desc {
+	color: grey;
+  	font-size: 15px;
+  	position: absolute;
+	text-align: center;
+	top: 20px;
+	left: 13px;
+	right: 13px;
+}
+
+.column:hover .overlay {
+	opacity: 1;
+}
+
+.subtitle {
+	font-family: 'Georgia';
+	font-size: 14px;
+	color: #696766;
+	padding-bottom: 20px;
+}
+
+.name {
+	font-size: 12px;
+	font-family: 'Garamond';
+	color: grey;
+	text-align: center;
+}
+div img:hover {
+	background-color: #FFFFFF;
+}
+
+aside {
+	width: 180px;
+	font-family: Bookman;
+	font-size: 11.5px;
+	color: grey;
+	float: right;
+	position: absolute;
+	overflow: hidden;
+	position: relative;
+	border: solid #B78DD7 2px;
+	padding: 7px;
+}
+
+div img {
+	width: 200px;
+	height: 200px;
+	padding: 8px;
+	margin: 5px;
+	border: solid grey 2px;
+	display: block;
+}
+div.column {
+	float: left;
+	padding: 5px;
+	margin: 2px 2px 2px 0.3px;
+	position: relative;
+}
+
+div.row:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+section.main {
+	float: left;
+	border: dotted #B78DD7 4px;
+}
